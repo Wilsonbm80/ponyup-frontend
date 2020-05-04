@@ -1,0 +1,18 @@
+<div>
+    <input class='search' type="text" placeholder="Search for a Pony...">
+</div>
+<div> 
+    <table>
+        <caption>Account Summary</caption>
+        <tr>
+            <th colspan="2">{{users[0].name}}</th>
+        </tr>
+        <tr>
+            <td>{{users[0].balance | currency}}</td>
+            <td>
+                <span class='payable'>{{users[0].numberOfPayableRequests}} payable request(s)</span>
+                <span class='receivable'><br>{{users[0].numberOfReceivableRequests}} receivable request(s)</span>
+            </td>
+        </tr>
+    </table>
+</div>

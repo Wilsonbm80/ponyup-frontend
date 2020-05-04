@@ -1,0 +1,26 @@
+table{
+    box-shadow: 5px 5px 5px gray;
+    margin: auto;
+    width: 80%;
+    background-color: #ebf2ff;
+}
+caption{
+    font-size: 300%;
+    font-style: oblique;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+th{
+    font-size: 200%;
+    text-decoration: underline;
+}
+td{
+    font-size: 160%;
+}
